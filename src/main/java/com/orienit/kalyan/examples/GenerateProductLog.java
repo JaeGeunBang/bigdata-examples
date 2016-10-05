@@ -15,7 +15,7 @@ public class GenerateProductLog {
 	static final Option FILE_PATH_OPT = new Option("f", "file", true, "output file path");
 	static final Option NO_OF_USERS_OPT = new Option("n", "numberOfUsers", true, "number of users");
 	static final Option NO_OF_LOGS_OPT = new Option("l", "numberOfLogs", true, "number of logs");
-	static final Option DELIMITER_OPT = new Option("d", "delimiter", true, "Field Delimiter");
+	static final Option DELIMITER_OPT = new Option("d", "delimiter", true, "Field Delimiter, bydefault is json format");
 	static final Option HELP_OPT = new Option("h", "help", false, "Show this help and quit");
 
 	public static Options getOptions() {
